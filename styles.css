@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('11.jpg');
+    font-family: 'Sono', sans-serif;
+}
+
+.left {
+    border: 4px solid #A8FF35;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    line-height: 17px;
+    border-radius: 10px;
+}
+
+.left img {
+
+    width: 55px;
+    align-content: center;
+    margin: 3%;
+    padding: 0px 31px;
+}
+
+.left div {
+    text-align: center;
+    border: 4px solid #A8FF35;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 16px auto;
+    border: 2px solid #A8FF35;
+    border-radius: 20px;
+}
+
+.right {
+    position: absolute;
+    right: 28px;
+    top: 30px;
+    display: inline-block;
+}
+
+.nav {
+
+    display: inline-block;
+}
+
+.nav li {
+
+    display: inline-block;
+    font-size: 18px;
+}
+
+.nav li a {
+    text-decoration: none;
+    padding: 4px 25px;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+    background-color: #A8FF35;
+    border-radius: 9px;
+}
+
+.nav li a.active {
+    background-color: #A8FF35;
+    border-radius: 9px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: white;
+    padding: 4px 14px;
+    border-radius: 9px;
+    border: 2px solid #A8FF35;
+    cursor: pointer;
+    background-color: #A8FF35;
+    font-size: 15px;
+    font-family: 'Sono', sans-serif;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.container {
+    border: 4px solid #A8FF35;
+    margin: 132px 201px;
+    padding: 75px;
+    border-radius: 25px;
+    width: 30%;
+    height: 292px;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    margin-block-start: -2.33em;
+    margin-block-end: 2.67em;
+    margin-inline-start: -4px;
+    margin-inline-end: 9px;
+    font-weight: bold;
+    background-color: #A8FF35;
+    border-radius: 10px;
+
+}
+
+.form-group input {
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 14px;
+    border: 2px solid #A8FF35;
+    margin: 13px auto;
+    border-radius: 9px;
+    font-size: 19px;
+}
+
+.container button {
+    display: block;
+    margin: 23px auto;
+    width: 33%;
+    font-size: 23px;
+}
