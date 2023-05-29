@@ -3,6 +3,8 @@ body {
     padding: 0px;
     background: url('12.jpg');
     font-family: 'Sono', sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .left {
@@ -14,6 +16,7 @@ body {
     line-height: 17px;
     border-radius: 10px;
 }
+
 
 .left img {
 
@@ -30,10 +33,11 @@ body {
 
 .mid {
     display: block;
-    width: 38%;
+    width: 40%;
     margin: 16px auto;
     border: 2px solid #A8FF35;
     border-radius: 20px;
+
 }
 
 .right {
@@ -46,6 +50,7 @@ body {
 .nav {
 
     display: inline-block;
+
 }
 
 .nav li {
@@ -61,7 +66,6 @@ body {
 }
 
 .nav li a:hover {
-    text-decoration: underline;
     background-color: #A8FF35;
     border-radius: 9px;
 }
